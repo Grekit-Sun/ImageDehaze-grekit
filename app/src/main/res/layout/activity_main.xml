@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <SurfaceView-->
+<!--        android:id="@+id/camera"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="9" />-->
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:src="@drawable/dehaze"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/takePhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/take_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/openAlbum"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/open_album"
+            android:layout_marginStart="20dp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/dehaze_img"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="#000000"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/prompt"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="去相册选择待图片"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="#F8F6F6"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textSize="38sp"-->
+    <!--        />-->
+
+</LinearLayout>
